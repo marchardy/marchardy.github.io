@@ -1,1 +1,118 @@
-Hello World
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Portfolio | Marc Hardy</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+    <body id="main-page">
+      <header>
+        <div class="wrap">
+          <nav id="topnav" class="navbar navbar-fixed-top navbar-burger">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://marchardy.org"><img src="http://vectr.com/hardybeefstew/IxLINVAWvB.png?width=104.063&height=90&select=VB69QJEbb&source=selection&cache=off"></img></a>
+              </div>
+              <div class="collapse navbar-collapse nav-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a href="#home">Home </a></li>
+                  <li><a href="#about">About Me</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#blog">Personal Blog</a></li>
+                  <li><a href="#contact">Contact Me</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+        <div class="main">
+          <div class="wrap">
+            <div class="container" id="home">
+              <h1 class="text-center"><strong>Marc Hardy</strong></h1>
+            <div>
+              <img class="img-circle img-responsive img-fluid center-block" id="photo-jumbo" src="http://i.imgur.com/5i3iGmW.jpg?1" alt="A picture of me"/>
+            </div>
+              <p id="subtext" class="text-center">Web Developer, Intermittent Blogger, Adventurer</p>
+            </div>
+          <div class="container" id="about">
+            <div class="wrap">
+            <h2><strong>About Me</strong></h2>
+                <img id="aboutpic" class="img img-responsive img-thumbnail img-rounded" src="http://i.imgur.com/0z8wLXC.jpg?1" alt="Another picture of me"/>
+                <p>My name is Marc and I am currently living in the Eugene, OR, area. I am an adventurer.  Maybe not in the typical sense of world travels, but an adventurer all the same.  I enjoy continually exploring and learning new things, while growing in areas I am already familiar with.</p>
+                <p>I enjoy reading, writing, playing music, running, and hiking/camping.  I also love solving puzzles and enjoy the satisfaction of seeing something I have built with my own hands. While I have had past experience working in healthcare, retail, and with religious organizations, I have embarked on a new journey as a web developer after rediscovering the latter loves of mine.</p>
+                <p>Though I am closer to a beginner on the spectrum of web development, feel free to <a href="#contact">contact me</a> if you're looking to hire an aspiring web developer or if you simply have any questions/comments about myself and/or my work.</p>
+            </div>
+          </div>
+        <div class="container" id="portfolio">
+          <div class="wrap">
+            <h2><strong>Portfolio</strong></h2>
+            <div class="row">
+              <div class="col-md-4 col-sm-6 col-xs-12 project-container">
+                <div class="thumbnail">
+                  <a href="http://codepen.io/hardybeefstew/full/zqewEp" target="_blank" rel="noopener noreferrer"><img class="img-fluid img-responsive project center-block" src="http://i.imgur.com/H1Hx8A5.jpg?1" alt="Tribute Page (Created for Free Code Camp)"></a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 project-container">
+                <div class="thumbnail">
+                  <a href="https://codepen.io/hardybeefstew/full/GZeGPa/" target="_blank" rel="noopener noreferrer"><img class="img-fluid img-responsive project center-block" src="http://i.imgur.com/mDi2J4D.png?1" alt="My Portfolio Page"></a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 project-container">
+                <div class="thumbnail">
+                  <a href="https://dash.generalassemb.ly/hardybeefstew/build-your-own-personal-website" target="_blank" rel="noopener noreferrer"><img class="img-fluid img-responsive project center-block" src="http://i.imgur.com/N03CbVN.png?2" alt="CSS/HTML practice" ></a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 project-container" id="sm-img">
+                <div class="thumbnail">
+                  <a href="http://codepen.io/hardybeefstew/full/mEYJJo/" target="_blank" rel="noopener noreferrer"><img class="img-fluid img-responsive project center-block" src="http://i.imgur.com/R62aww5.png" alt="CSS/HTML practice"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="blog">
+          <div class="wrap">
+            <h2><strong>Personal Blog</strong></h2><br>
+            <div>
+                <a id="blog-thumbnail" href="http://marchardy.org/" target="_blank" rel="noopener noreferrer"><img class="ri img-responsive img-fluid center-block" src="http://i.imgur.com/rQihip6.jpg" alt="The Unexpected Journey Blog"/></a>
+            </div>
+            <hr>
+                <p class="text-center">Not my code, but my writing all the same</p>
+          </div>
+        </div>
+        <div class="container" id="contact">
+          <div class="wrap">
+            <h2><strong>Contact Me</strong></h2>
+            <div id="social">
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/marcshardy" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-square fa-5x" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/hardymarcs" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/marc-hardy-a2b66750" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
+                <a href="https://github.com/hardybeefstew" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <footer>
+      <p class="text-center" id="copyright">&copy;2016 -<?php echo date("Y"); ?> <a href="http://marchardy.org">Marc Hardy</a></p>
+  </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/4c8b3e058b.js"></script>
+
+  </body>
+</html>
